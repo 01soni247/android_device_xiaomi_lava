@@ -27,7 +27,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base.mk)
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/kscope/config/mobile.mk)
+$(call inherit-product, vendor/kscope/target/product/mobile.mk)
 
 #
 # All components inherited here go to system_ext image
